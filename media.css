@@ -1,0 +1,198 @@
+:root{
+    --body-bg:rgb(230, 226, 173);
+    --menu-slide-bg:rgb(179, 154, 16);
+    --ms-box-shadow: rgb(66, 57, 9);
+    --song-slide-bg:rgb(208, 180, 21);
+    --li-hover:rgb(226, 197, 31);
+    --master-play-bg:  rgb(184, 159, 15);
+    --mp-box-shadow: rgb(66, 57, 8);
+    --playlist-active:rgb(140, 104, 6);
+    --play-box-shadow: rgb(198 156 6);
+    --wave:rgb(227, 12, 12);
+    --icon-border:rgb(100, 83, 7);
+    --bar-bg:rgb(28, 101, 218);
+    --button-bg:rgb(147, 121, 6);
+    --button-background:rgb(118, 98, 5);
+    --pop_song-hover:rgb(226, 197, 31);
+} 
+
+body.dark-mode{
+    --body-bg:#131312;
+    --menu-slide-bg: #111727;
+    --ms-box-shadow:  #090f1f;
+    --song-slide-bg:#0b1320;
+    --master-play-bg:  #111727;
+    --mp-box-shadow: #090f1f;
+    --playlist-active:#36e2ec;
+    --play-box-shadow:rgb(18, 18, 22);
+    --li-hover:rgb(105, 105, 170,.1);
+    --wave:#36e2ec;
+    --icon-border:rgb(105, 105, 170,.1);
+    --bar-bg:#36e2ec;
+    --button-bg: #36e2ec;
+    --button-background:#5adae0;
+    --pop_song-hover:rgb(105, 105, 170,.1);
+}
+
+
+
+
+
+@media screen and (max-width:1200px){
+    header {
+        width: 93%;
+        transition:.3s linear;
+    }
+    header .menu_slide{
+        width: 28%;
+    }
+    header .menu_slide .menu_song {
+        height: 378px;
+        margin-top: 18px;
+    }
+    header .song_slide {
+        width: 72%;
+    }
+    /* header .song_slide .content {   
+        height: 22%;
+    } */
+    header .song_slide nav ul label {
+        font-size: 20px;
+    }
+    header .song_slide #toggle {
+        width: 56px;
+        height: 22px;      
+    }
+    header .song_slide #toggle .indicator {
+        width: 20px;
+        height: 19px; 
+    }
+}
+
+
+@media screen and (max-width:980px){
+    header {
+        width: 99%;
+        height:100vh;
+        transition: .3s linear;
+    }
+    header .menu_slide {
+        position: absolute;
+        width: 45%;
+        z-index: 9999;
+        /* height: 1127px; */
+        transition:1s linear;
+    }
+    header .song_slide {
+        width: 100%;
+        
+    }
+    header .master_play {
+        z-index: 99999;
+    }
+    header .menu_slide h6{
+        position: absolute;
+        right: -40px;
+        bottom: 10px;
+        width:40px;
+        height: 40px;
+        background:var(--menu-slide-bg);
+        border-radius:0px 10px 10px 0px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-size:18px;
+        cursor: pointer;
+        transition: 1s linear;
+        z-index: index 9999999999999;
+    }
+}
+
+    @media  screen and (max-width: 680px) {
+        header{
+            width: 100%;
+            height:100vh;
+        }
+        header .song_slide nav .search input {
+            width: auto;
+        }
+        header .song_slide nav .search {
+            width: 43%;
+            margin-left: -57px;
+        }
+        header .song_slide #toggle.active .indicator {
+            left: 18px;
+        }
+        header .menu_slide {
+            width: 50%;
+        }
+        header .master_play {
+            z-index: 99999999999;
+        }
+        header .master_play .icons {
+            position: absolute;
+            bottom: 141px;
+            right: 38%;
+        }
+        header .master_play .icons::before {
+            content: "";
+            position: absolute;
+            right: -59px;
+            top: -43px;
+            width: 200px;
+            height: 140px;
+            background:var(--master-play-bg);
+            z-index: -1;
+            border-radius: 50% 50% 0% 0%;
+            box-shadow: -4px -28px 30px -3px var(--play-box-shadow);
+        }
+        header .master_play .wave {
+            position: absolute;
+            bottom: 180px;
+            right: 44%;
+            width: 36px;
+            height: 36px;
+        }
+        header .master_play .wave .wave1 {
+            width: 6px;
+        }
+    }
+
+
+    
+@media screen and (max-width: 541px) {
+    header .menu_slide {
+        width: 66%;
+    }
+
+    header .song_slide #toggle {
+        width: 58px;
+    }
+
+    header .song_slide #toggle.active .indicator {
+        left: 12px;
+    }
+}
+
+
+@media  screen and (max-width: 468px){
+    header .menu_slide {
+        width: 66%;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    header .menu_slide {
+        width: 77%;
+    }
+
+    header .song_slide nav ul label {
+        font-size: 16px;
+    }
+
+    header .song_slide #toggle {
+        width: 66px;
+    }
+}
+
+
