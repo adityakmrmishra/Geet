@@ -43,7 +43,7 @@ body.dark-mode {
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: var(--body-bg);
     font-family: 'Baloo Bhai', cursive;
