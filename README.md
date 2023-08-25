@@ -8,7 +8,7 @@
 [GEET](https://adityageet.netlify.app/)
 
 ##### Click below for my github  
-[Aditya kumar mishra ](https://github.com/Adityamishra9719)  
+[Aditya kumar mishra ](https://github.com/adityakmrmishra)  
 
 
 
