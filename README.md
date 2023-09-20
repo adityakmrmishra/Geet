@@ -1,12 +1,12 @@
 # Geet
-**Geet is music website as spotify  **
+**Geet is music website as spotify , this website contains limited songs as for now and you can see the demo by clicking [GEET](https://adityageet.netlify.app/)  **
 
 ## Tech Used
 - **HTML**
 - **Javascript**
 - **CSS**
 
-##### DEMO
+## DEMO
 [GEET](https://adityageet.netlify.app/)
   
 <h2 align=center> 👨🏻‍💻 How to get started? </h2> 
@@ -27,7 +27,7 @@ You can refer to the following articles on **_basics of Git and Github and also 
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
- [Click here](./CONTRIBUTING.md)
+- For Contribution Guide [Click here](./CONTRIBUTING.md)
 
 ### **REACH OUT TO ME**
 [![twitter](https://img.shields.io/badge/twitter-0A66C2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adityakmrmishra)
