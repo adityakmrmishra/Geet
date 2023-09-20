@@ -9,12 +9,13 @@
 1. Fork this repository.
 2. Clone the forked repository.
 ```css
-git clone https://github.com/<your-github-username>/Front-End-Projects.git
+git clone https://github.com/<your-github-username>/Geet.git
 ```
+
   
 3. Navigate to the project directory.
 ```py
-cd Front-End-Projects
+cd geet
 ```
 4. Create a new branch.
 ```css
