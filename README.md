@@ -1,5 +1,8 @@
 # Geet
-**Geet is music website as spotify , this website contains limited songs as for now and you can see the demo by clicking [GEET](https://adityageet.netlify.app/)  **
+
+
+## 🎶 Project Description:
+**[GEET](https://adityageet.netlify.app/) is an open-source music player that aims to provide users with a seamless music listening experience similar to popular platforms like Spotify. By contributing to this project, you'll be shaping the future of music streaming and helping music enthusiasts enjoy their favorite tunes more easily.**
 
 ## Tech Used
 - **HTML**
