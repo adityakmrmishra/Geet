@@ -34,10 +34,13 @@ You can refer to the following articles on **_basics of Git and Github and also 
 
 <h2 align=center> Project Maintainers </h2> 
 
-| ![Aditya Kumar Mishra](https://github.com/adityakmrmishra.png?size=100) ||
-| :--------------------------------------------------: | :--------------------------------------------------: |
-| [Aditya Kumar Mishra](https://github.com/adityakmrmishra)       | [Ankit Kumar Sharma ](https://github.com/GuryonAnkit)       |
+<div align=center >
+  
+| ![Aditya Kumar Mishra](https://github.com/adityakmrmishra.png?size=100) | ![Ashish Gupta](https://github.com/l-ashish-gupta-l?size=100)  | ![Ankit Kumar Sharma](https://github.com/GuryonAnkit.png?size=100) |
+| :----------------------------------------------------------------------: | :-----------------------------------------------------------------: |  :--------------------------------------------------------------: |
+| [Aditya Kumar Mishra](https://github.com/adityakmrmishra)    | [Ashish Gupta](https://github.com/l-ashish-gupta-l)     |    [Ankit Kumar Sharma ](https://github.com/GuryonAnkit)    |
 
+</div>
 
 ### **REACH OUT TO ME**
 [![twitter](https://img.shields.io/badge/twitter-0A66C2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adityakmrmishra)
