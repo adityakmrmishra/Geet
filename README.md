@@ -36,7 +36,7 @@ You can refer to the following articles on **_basics of Git and Github and also 
 
 <div align=center >
   
-| ![Aditya Kumar Mishra](https://github.com/adityakmrmishra.png?size=100) | ![Ashish Gupta](https://github.com/l-ashish-gupta-l?size=100)  | ![Ankit Kumar Sharma](https://github.com/GuryonAnkit.png?size=100) |
+| ![Aditya Kumar Mishra](https://github.com/adityakmrmishra.png?size=100) | ![Ashish Gupta](https://github.com/l-ashish-gupta-l.png?size=100)  | ![Ankit Kumar Sharma](https://github.com/GuryonAnkit.png?size=100) |
 | :----------------------------------------------------------------------: | :-----------------------------------------------------------------: |  :--------------------------------------------------------------: |
 | [Aditya Kumar Mishra](https://github.com/adityakmrmishra)    | [Ashish Gupta](https://github.com/l-ashish-gupta-l)     |    [Ankit Kumar Sharma ](https://github.com/GuryonAnkit)    |
 
