@@ -45,7 +45,9 @@ You can refer to the following articles on **_basics of Git and Github and also 
 ### **REACH OUT TO ME**
 [![twitter](https://img.shields.io/badge/twitter-0A66C2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adityakmrmishra)
 
-
+## ❤️ Support 
+  
+ Don't forget to leave a star ⭐️. Its free 😉
 
 
 
