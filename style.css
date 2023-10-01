@@ -6,40 +6,40 @@
     box-sizing: border-box;
 }
 
-:root {
-    --body-bg: rgb(230, 226, 173);
-    --menu-slide-bg: rgb(179, 154, 16);
+:root{
+    --body-bg:rgb(230, 226, 173);
+    --menu-slide-bg:rgb(179, 154, 16);
     --ms-box-shadow: rgb(66, 57, 9);
-    --song-slide-bg: rgb(208, 180, 21);
-    --li-hover: rgb(226, 197, 31);
-    --master-play-bg: rgb(184, 159, 15);
+    --song-slide-bg:rgb(208, 180, 21);
+    --li-hover:rgb(226, 197, 31);
+    --master-play-bg:  rgb(184, 159, 15);
     --mp-box-shadow: rgb(66, 57, 8);
-    --playlist-active: rgb(140, 104, 6);
+    --playlist-active:rgb(140, 104, 6);
     --play-box-shadow: rgb(198 156 6);
-    --wave: rgb(227, 12, 12);
-    --icon-border: rgb(100, 83, 7);
-    --bar-bg: rgb(28, 101, 218);
-    --button-bg: rgb(147, 121, 6);
-    --button-background: rgb(118, 98, 5);
-    --pop_song-hover: rgb(226, 197, 31);
-}
+    --wave:rgb(227, 12, 12);
+    --icon-border:rgb(100, 83, 7);
+    --bar-bg:rgb(28, 101, 218);
+    --button-bg:rgb(147, 121, 6);
+    --button-background:rgb(118, 98, 5);
+    --pop_song-hover:rgb(226, 197, 31);
+} 
 
-body.dark-mode {
-    --body-bg: #131312;
+body.dark-mode{
+    --body-bg:#131312;
     --menu-slide-bg: #111727;
-    --ms-box-shadow: #090f1f;
-    --song-slide-bg: #0b1320;
-    --master-play-bg: #111727;
+    --ms-box-shadow:  #090f1f;
+    --song-slide-bg:#0b1320;
+    --master-play-bg:  #111727;
     --mp-box-shadow: #090f1f;
-    --playlist-active: #36e2ec;
-    --play-box-shadow: rgb(18, 18, 22);
-    --li-hover: rgb(105, 105, 170, .1);
-    --wave: #36e2ec;
-    --icon-border: rgb(105, 105, 170, .1);
-    --bar-bg: #36e2ec;
+    --playlist-active:#36e2ec;
+    --play-box-shadow:rgb(18, 18, 22);
+    --li-hover:rgb(105, 105, 170,.1);
+    --wave:#36e2ec;
+    --icon-border:rgb(105, 105, 170,.1);
+    --bar-bg:#36e2ec;
     --button-bg: #36e2ec;
-    --button-background: #5adae0;
-    --pop_song-hover: rgb(105, 105, 170, .1);
+    --button-background:#5adae0;
+    --pop_song-hover:rgb(105, 105, 170,.1);
 }
 
 body {
