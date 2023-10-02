@@ -408,9 +408,11 @@ music.addEventListener('timeupdate', () =>{
     let progressBar = parseInt((music_curr / music_dur)*100);
     seek.value = progressBar;
 
-    let seekbar = seek.value;
-    bar2.style.width =`${seekbar}%`;
-    dot.style.left = `${seekbar}%`;
+    if(music_curr){
+        let seekbar = seek.value;
+        bar2.style.width =`${seekbar}%`;
+        dot.style.left = `${seekbar}%`;
+    }
 });
 
 // seek bar forward and backward
