@@ -381,36 +381,38 @@ let dot =document.getElementsByClassName('dot')[0];
 
 
 music.addEventListener('timeupdate', () =>{
-    let music_curr = music.currentTime;
-    let music_dur = music.duration;
+    setTimeout(() => {
+        let music_curr = music.currentTime;
+        let music_dur = music.duration;
 
 
-    // for end duration in music
-    let min1 = Math.floor(music_dur / 60);
-    let sec1 = Math.floor(music_dur % 60);
+        // for end duration in music
+        let min1 = Math.floor(music_dur / 60);
+        let sec1 = Math.floor(music_dur % 60);
 
-    if(sec1 < 10){
-        sec1 = `0${sec1}`;
-    }
-    currentend.innerHTML = `${min1}:${sec1}`;
+        if(sec1 < 10){
+            sec1 = `0${sec1}`;
+        }
+        currentend.innerHTML = `${min1}:${sec1}`;
 
-    // for start duration in music
-    let min2 = Math.floor(music_curr / 60);
-    let sec2 = Math.floor(music_curr % 60);
+        // for start duration in music
+        let min2 = Math.floor(music_curr / 60);
+        let sec2 = Math.floor(music_curr % 60);
 
-    if(sec2 < 10){
-        sec2 = `0${sec2}`;
-    }
-    currentstart.innerHTML = `${min2}:${sec2}`;
+        if(sec2 < 10){
+            sec2 = `0${sec2}`;
+        }
+        currentstart.innerHTML = `${min2}:${sec2}`;
 
-    // seek bar 
+        // seek bar 
 
-    let progressBar = parseInt((music_curr / music_dur)*100);
-    seek.value = progressBar;
+        let progressBar = parseInt((music_curr / music_dur)*100);
+        seek.value = progressBar;
 
-    let seekbar = seek.value;
-    bar2.style.width =`${seekbar}%`;
-    dot.style.left = `${seekbar}%`;
+        let seekbar = seek.value;
+        bar2.style.width =`${seekbar}%`;
+        dot.style.left = `${seekbar}%`;
+    }, 300);
 });
 
 // seek bar forward and backward
