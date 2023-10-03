@@ -473,6 +473,7 @@ header .master_play .vol .dot::before {
 /* css for song_slide section */
 header .song_slide {
     z-index: 2;
+    
 }
 
 header .song_slide::before {
@@ -495,6 +496,7 @@ header .song_slide nav {
     align-items: center;
     justify-content: space-between;
     position: sticky;
+    gap: 20px;
 }
 
 
@@ -539,11 +541,14 @@ header .song_slide nav .search {
     display: flex;
     position: relative;
     width: 30%;
-    padding: 1px 10px;
+    padding: 1px;
+    padding-right: 4px;
+    gap: 2px;
     border-radius: 20px;
     color: rgb(232, 229, 229);
     margin-left: 97px;
 }
+
 
 header .song_slide nav .search::before {
     content: "";
@@ -620,12 +625,24 @@ header .song_slide nav .search input {
     font-size: 12px;
 }
 
+/* this is for login link */
+header .song_slide nav .login-link{
+padding:2px 10px;
+text-decoration: none;
+border-radius: 40px;
+background-color: orange;
+}
+header .song_slide nav .login-link a {
+text-decoration: none;
+
+}
+
 /* css for toggling the daek mode starts */
 
 header .song_slide #toggle {
     position: relative;
     display: block;
-    margin-left: 30px;
+    margin-left: 2px;
     border: 1px solid rgb(112, 91, 5);
     width: 66px;
     height: 30px;
