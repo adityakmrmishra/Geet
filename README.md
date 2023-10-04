@@ -32,15 +32,44 @@ You can refer to the following articles on **_basics of Git and Github and also 
 - Add Screenshots to help us know what this Script is all about.
 - For Contribution Guide [Click here](./CONTRIBUTING.md)
 
-<h2 align=center> Project Maintainers </h2> 
+
+<h2 align=center> Project Admin </h2> 
 
 <div align=center >
   
-| ![Aditya Kumar Mishra](https://github.com/adityakmrmishra.png?size=100) | ![Ashish Gupta](https://github.com/l-ashish-gupta-l.png?size=100)  | ![Ankit Kumar Sharma](https://github.com/GuryonAnkit.png?size=100) |
-| :----------------------------------------------------------------------: | :-----------------------------------------------------------------: |  :--------------------------------------------------------------: |
-| [Aditya Kumar Mishra](https://github.com/adityakmrmishra)    | [Ashish Gupta](https://github.com/l-ashish-gupta-l)     |    [Ankit Kumar Sharma ](https://github.com/GuryonAnkit)    |
+| ![Aditya Kumar Mishra](https://github.com/adityakmrmishra.png?size=100) |
+| :----------------------------------------------------------------------: |
+| [Aditya Kumar Mishra](https://github.com/adityakmrmishra)    | 
 
 </div>
+
+<h2 align=center> Project Mentors </h2> 
+
+<div align=center >
+  
+ | ![Ashish Gupta](https://github.com/l-ashish-gupta-l.png?size=100)  | ![Ankit Kumar Sharma](https://github.com/GuryonAnkit.png?size=100) |
+ | :-----------------------------------------------------------------: |  :--------------------------------------------------------------: |
+ | [Ashish Gupta](https://github.com/l-ashish-gupta-l)     |    [Ankit Kumar Sharma ](https://github.com/GuryonAnkit)    |
+
+</div>
+
+
+
+<!-- -----------------OUR BELOVED CONTRIBUTORS-------------------- -->
+<h1 align="center"> Our Beloved Contributors 😍 </h1>
+
+<div align=center >
+<a href="https://github.com/adityakmrmishra/Geet/graphs/contributors">
+  <img align="center" src="https://contrib.rocks/image?max=100&repo=adityakmrmishra/Geet" />
+</a>
+</div>
+
+---
+
+A big thank you to all our contributors who have made this project better with their valuable contributions! We appreciate your efforts and dedication.
+
+---
+
 
 ### **REACH OUT TO ME**
 [![twitter](https://img.shields.io/badge/twitter-0A66C2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adityakmrmishra)
