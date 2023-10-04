@@ -743,6 +743,11 @@ header .song_slide .content .buttons button:nth-child(2):hover {
     color: #fff;
 }
 
+.song_card{
+    position: relative;
+    z-index: -1;
+}
+
 header .song_slide .song_card {
     width: 90%;
     height: auto;
