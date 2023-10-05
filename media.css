@@ -60,12 +60,15 @@ body.dark-mode{
         font-size: 20px;
     }
     header .song_slide #toggle {
-        width: 56px;
+        width: 65px;
         height: 22px;      
     }
     header .song_slide #toggle .indicator {
         width: 20px;
-        height: 19px; 
+        height: 20px; 
+    }
+    header .song_slide #toggle.active .indicator{
+        left:12px;
     }
 }
 
@@ -105,6 +108,12 @@ body.dark-mode{
         cursor: pointer;
         transition: 1s linear;
         z-index: index 9999999999999;
+    }
+    header .song_slide #toggle {
+        width: 60px;
+    }
+    header .song_slide #toggle.active .indicator {
+        left: 15px;
     }
 }
 
@@ -156,6 +165,9 @@ body.dark-mode{
         header .master_play .wave .wave1 {
             width: 6px;
         }
+        header .song_slide #toggle.active .indicator{
+            left:12px;
+        }
     }
 
 
@@ -164,13 +176,16 @@ body.dark-mode{
     header .menu_slide {
         width: 66%;
     }
-
     header .song_slide #toggle {
-        width: 58px;
+        width: 65px;
+        height: 20px;
     }
-
+    header .song_slide #toggle .indicator{
+        width: 17px;
+        height: 17px;
+    }
     header .song_slide #toggle.active .indicator {
-        left: 12px;
+        left: 8px;
     }
 }
 
@@ -178,6 +193,17 @@ body.dark-mode{
 @media  screen and (max-width: 468px){
     header .menu_slide {
         width: 66%;
+    }
+    header .song_slide #toggle {
+        width: 65px;
+        height: 15px;
+    }
+    header .song_slide #toggle .indicator{
+        width: 12px;
+        height: 13px;
+    }
+    header .song_slide #toggle.active .indicator {
+        left: 6px;
     }
 }
 
