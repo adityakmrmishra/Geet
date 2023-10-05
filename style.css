@@ -562,9 +562,10 @@ header .song_slide nav .search::before {
 }
 
 header .song_slide nav .search .search_results {
+    background-color: var(--song-slide-bg);
     position: absolute;
     width: 100%;
-    height: 200px;
+    max-height: 200px;
     /* border:1px solid; */
     margin-top: 26px;
     border-radius: 7px;
@@ -576,6 +577,7 @@ header .song_slide nav .search .search_results::-webkit-scrollbar {
 }
 
 header .song_slide nav .search .search_results .card {
+    border-radius: 5px;
     width: 100%;
     min-height: 30px;
     /* border:1px solid white; */
@@ -743,17 +745,14 @@ header .song_slide .content .buttons button:nth-child(2):hover {
     color: #fff;
 }
 
-.song_card{
-    position: relative;
-    z-index: -1;
-}
-
 header .song_slide .song_card {
     width: 90%;
     height: auto;
     /* border:1px solid #fff; */
     margin: auto;
     margin-top: 15px;
+    position: relative;
+    z-index: -1;
 }
 
 header .song_slide .song_card .h4 {
