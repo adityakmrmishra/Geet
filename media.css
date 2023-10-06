@@ -189,6 +189,14 @@ body.dark-mode{
     }
 }
 
+@media screen and (max-width: 525px){
+    header .song_slide nav {
+        width: 95%;
+    }
+    header .song_slide nav ul label{
+        font-size: 16px;
+    }
+}
 
 @media  screen and (max-width: 468px){
     header .menu_slide {
@@ -217,8 +225,21 @@ body.dark-mode{
     }
 
     header .song_slide #toggle {
-        width: 66px;
+        width: 80px;
+    }
+    header .song_slide #toggle.active .indicator {
+        left: 7px;
     }
 }
 
+
+@media screen and (max-width: 340px){
+    header .song_slide nav {
+        width: 100%;
+    }
+    header .song_slide nav .login-link {
+        padding: 2px 5px;
+        font-size: 14px;
+    }
+}
 
