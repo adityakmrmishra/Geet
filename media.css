@@ -206,6 +206,9 @@ body.dark-mode{
         width: 65px;
         height: 15px;
     }
+    header .song_slide nav ul label {
+        width: 65%;
+    }
     header .song_slide #toggle .indicator{
         width: 12px;
         height: 13px;
@@ -233,7 +236,7 @@ body.dark-mode{
 }
 
 
-@media screen and (max-width: 340px){
+@media screen and (max-width: 355px){
     header .song_slide nav {
         width: 100%;
     }
