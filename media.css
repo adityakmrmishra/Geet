@@ -65,7 +65,7 @@ body.dark-mode{
     }
     header .song_slide #toggle .indicator {
         width: 22px;
-        height: 25px; 
+        height: 23px; 
     }
     header .song_slide #toggle.active .indicator{
         left:12px;
