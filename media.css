@@ -61,11 +61,11 @@ body.dark-mode{
     }
     header .song_slide #toggle {
         width: 65px;
-        height: 22px;      
+        height: 26px;      
     }
     header .song_slide #toggle .indicator {
-        width: 20px;
-        height: 20px; 
+        width: 22px;
+        height: 23px; 
     }
     header .song_slide #toggle.active .indicator{
         left:12px;
@@ -178,11 +178,11 @@ body.dark-mode{
     }
     header .song_slide #toggle {
         width: 65px;
-        height: 20px;
+        height: 26px;
     }
     header .song_slide #toggle .indicator{
         width: 17px;
-        height: 17px;
+        height: 22px;
     }
     header .song_slide #toggle.active .indicator {
         left: 8px;
@@ -203,15 +203,15 @@ body.dark-mode{
         width: 66%;
     }
     header .song_slide #toggle {
-        width: 65px;
-        height: 15px;
+        width: 104px;
+        height: 26px;
     }
     header .song_slide nav ul label {
         width: 60%;
     }
     header .song_slide #toggle .indicator{
-        width: 12px;
-        height: 13px;
+        width: 14px;
+        height: 23px;
     }
     header .song_slide #toggle.active .indicator {
         left: 6px;
