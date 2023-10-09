@@ -339,36 +339,54 @@ let index = 0;
 let poster_master_play = document.getElementById('poster_master_play');
 let tite = document.getElementById('title');
 let download_music = document.getElementById('download_music');
+let isPlaying=false;
+let pausedTime = 0; // Initialize to 0
 
 Array.from(document.getElementsByClassName('playlistplay')).forEach((e)=>{
     e.addEventListener('click', (el)=>{
-        index = el.target.id;
-        // console.log(index);
-        music.src = `audio/${index}.mp3`;
-        poster_master_play.src=`img/${index}.jpg`;
-        music.play();
-        wave.classList.add('active2')
-        masterplay.classList.remove('bi-play-fill')
-        masterplay.classList.add('bi-pause-fill')
-        // download
-        download_music.href =`audio/${index}.mp3`;
-
-        let songTitles = songs.filter((ele)=>{
-              return ele.id == index;
-        });
-         
-        songTitles.forEach(elem =>{
-            let {songName} = elem;
-            title.innerHTML= songName;
-            download_music.setAttribute('download',songName);
-        });
-
-        makeAllBackground();
-        Array.from(document.getElementsByClassName('songItem'))[index-1].style.background="rgb(105, 105, 170, .1)";
-
-        makeAllPlay();
-        el.target.classList.remove('bi-play-circle-fill');
-        el.target.classList.add('bi-pause-circle-fill');
+        //If paused then play and if playing then pause through icon
+        
+        if (isPlaying ){
+            
+            music.pause();
+            pausedTime=music.currentTime;
+            wave.classList.remove('active2');
+            masterplay.classList.add('bi-play-fill');
+            masterplay.classList.remove('bi-pause-fill');
+            makeAllPlay();
+        }
+        else{
+            index = el.target.id;
+            // console.log(pauseTime);
+            music.src = `audio/${index}.mp3`;
+            poster_master_play.src=`img/${index}.jpg`;
+            // download
+            download_music.href =`audio/${index}.mp3`;
+            let songTitles = songs.filter((ele)=>{
+                return ele.id == index;
+            });
+            
+            songTitles.forEach(elem =>{
+                let {songName} = elem;
+                title.innerHTML= songName;
+                download_music.setAttribute('download',songName);
+            });
+    
+            makeAllBackground();
+            Array.from(document.getElementsByClassName('songItem'))[index-1].style.background="rgb(105, 105, 170, .1)";
+            
+            music.currentTime=pausedTime; //Initialize time with paused time.
+            
+            music.play();
+            wave.classList.add('active2')
+            masterplay.classList.remove('bi-play-fill')
+            masterplay.classList.add('bi-pause-fill')            
+            
+            makeAllPlay();
+            el.target.classList.remove('bi-play-circle-fill');
+            el.target.classList.add('bi-pause-circle-fill');
+        }
+        isPlaying=!isPlaying;
     })
 })
 
