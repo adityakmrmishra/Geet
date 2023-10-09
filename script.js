@@ -341,6 +341,8 @@ let tite = document.getElementById('title');
 let download_music = document.getElementById('download_music');
 let isPlaying=false;
 let pausedTime = 0; // Initialize to 0
+let pausedIndex = 0;
+let playingIndex = 0;
 
 Array.from(document.getElementsByClassName('playlistplay')).forEach((e)=>{
     e.addEventListener('click', (el)=>{
@@ -350,6 +352,7 @@ Array.from(document.getElementsByClassName('playlistplay')).forEach((e)=>{
             
             music.pause();
             pausedTime=music.currentTime;
+            pausedIndex=playingIndex;
             wave.classList.remove('active2');
             masterplay.classList.add('bi-play-fill');
             masterplay.classList.remove('bi-pause-fill');
@@ -375,9 +378,15 @@ Array.from(document.getElementsByClassName('playlistplay')).forEach((e)=>{
             makeAllBackground();
             Array.from(document.getElementsByClassName('songItem'))[index-1].style.background="rgb(105, 105, 170, .1)";
             
-            music.currentTime=pausedTime; //Initialize time with paused time.
+            if(index==pausedIndex){
+                music.currentTime=pausedTime; //Initialize time with paused time.
+            }
+            else{
+                music.currentTime=0;
+            }
             
             music.play();
+            playingIndex=index;
             wave.classList.add('active2')
             masterplay.classList.remove('bi-play-fill')
             masterplay.classList.add('bi-pause-fill')            
