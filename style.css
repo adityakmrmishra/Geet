@@ -46,12 +46,23 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: var(--body-bg);
-    font-family: 'Baloo Bhai', cursive;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     /* font-size:4rem; */
 }
+#playlist h4{
+    font-size: 1.2rem;
+    color: #090f1f;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+#playlist h4:hover{
+    transform: translateY(-0.5rem);
+    color: #4c5262;
+}
+
 
 header {
     width: 85%;
@@ -149,7 +160,7 @@ header .menu_slide .playlist h4 span::before {
     position: absolute;
     width: 4px;
     height: 4px;
-    border: 2px solid grey;
+    border: 2px solid red;
     border-radius: 50%;
     top: -4px;
     transition: .3s linear;
@@ -516,7 +527,7 @@ header .song_slide nav ul label {
     font-size: 27px;
     margin-right: 25px;
     cursor: pointer;
-    color: grey;
+    color: #090f1f;
     transition: .3s linear;
 }
 
