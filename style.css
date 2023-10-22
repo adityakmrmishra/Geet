@@ -46,12 +46,23 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: var(--body-bg);
-    font-family: 'Baloo Bhai', cursive;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     /* font-size:4rem; */
 }
+#playlist h4{
+    font-size: 1.2rem;
+    color: #090f1f;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+#playlist h4:hover{
+    transform: translateY(-0.5rem);
+    color: #4c5262;
+}
+
 
 header {
     width: 85%;
@@ -149,7 +160,7 @@ header .menu_slide .playlist h4 span::before {
     position: absolute;
     width: 4px;
     height: 4px;
-    border: 2px solid grey;
+    border: 2px solid red;
     border-radius: 50%;
     top: -4px;
     transition: .3s linear;
@@ -516,7 +527,7 @@ header .song_slide nav ul label {
     font-size: 27px;
     margin-right: 25px;
     cursor: pointer;
-    color: grey;
+    color: #090f1f;
     transition: .3s linear;
 }
 
@@ -626,19 +637,50 @@ header .song_slide nav .search input {
     font-size: 12px;
     height : 26px ;
 }
-
-/* this is for login link */
-header .song_slide nav .login-link{
-padding:2px 10px;
-text-decoration: none;
-border-radius: 40px;
-background-color: rgb(158, 153, 153);
-height : 26px ;
-}
-header .song_slide nav .login-link a {
-text-decoration: none;
-
-}
+.login-link button {
+    --color:var(--wave);
+    font-family: inherit;
+    display: inline-block;
+    width: 5em;
+    height: 2.3em;
+    line-height: 2em;
+    overflow: hidden;
+    background-color: var(--li-hover);
+    margin: 20px;
+    font-size: 15px;
+    z-index: 1;
+    font-weight: bold;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+.login-link  button::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+ .login-link button:hover {
+    color: var(--li-hover);
+  }
+  
+ .login-link button:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+ .login-link button:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+ 
 
 /* css for toggling the daek mode starts */
 
